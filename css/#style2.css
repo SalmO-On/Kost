@@ -1,0 +1,35 @@
+:root{
+    --primary-color: #829460;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: initial;
+}
+/* Navbar Style*/
+.navbar{
+    z-index: 4;
+}
+*{
+    z-index: 3;
+}
+.navbar-brand {
+    font-weight: 800;
+    font-size: 20px;
+}
+nav-link{
+    font-size: 18px;
+}
+.nav-link.active{
+    font-weight: 800;
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color:transparent;
+    color:var(--primary-color);
+    border: none;
+    font-size: 18px;
+    width: 700;
+}
